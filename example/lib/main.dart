@@ -25,7 +25,7 @@ class _MyAppState extends State<MyApp> {
     if(_counter == 0)
       result = AliRecognition.sdkInit();
     else if(_counter == 1)
-      result = AliRecognition.sdkInit();
+      result = AliRecognition.sdkMetaInfos();
     else {
       Map params = new Map();
       params["certifyId"] = "91707dc296d469ad38e4c5efa6a0****";
@@ -35,6 +35,7 @@ class _MyAppState extends State<MyApp> {
     result.then((result) => {
       _label = result
     });
+    _counter ++;
   }
 
   @override

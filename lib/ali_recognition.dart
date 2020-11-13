@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 
 class AliRecognition {
   static const MethodChannel _channel =
-      const MethodChannel('ali_recognition');
+      const MethodChannel('AliRecognition');
 
   static Future<String> sdkInit() async {
     return await _channel.invokeMethod('init');
