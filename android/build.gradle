@@ -1,0 +1,62 @@
+group 'com.cabe.flutter.plugin.ali_recognition'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    ext.kotlin_version = '1.3.50'
+    repositories {
+        maven { url 'https://jitpack.io' }
+//        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+//        maven { url 'https://maven.aliyun.com/repository/google/' }
+//        maven { url 'https://maven.aliyun.com/repository/jcenter/'}
+//        maven { url 'https://mirrors.huaweicloud.com/repository/maven/' }
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+//        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+//        maven { url 'https://maven.aliyun.com/repository/google/' }
+//        maven { url 'https://maven.aliyun.com/repository/jcenter/'}
+//        maven { url 'https://mirrors.huaweicloud.com/repository/maven/' }
+        google()
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 29
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+//    repositories {
+//        flatDir {
+//            dirs "libs"
+//        }
+//    }
+    defaultConfig {
+        minSdkVersion 16
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+//    api(name: "android-aliyunface-sdk-release-1.3.3", ext: "aar")
+    api 'com.github.crabfang:AliRecognition:1.3.3@aar'
+    api "com.alibaba:fastjson:1.2.5"
+    api "com.squareup.okhttp3:okhttp:3.12.0"
+}
