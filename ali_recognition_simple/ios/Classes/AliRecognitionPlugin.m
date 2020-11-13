@@ -1,11 +1,11 @@
-#import "AliRecognitionSimplePlugin.h"
+#import "AliRecognitionPlugin.h"
 
-@implementation AliRecognitionSimplePlugin
+@implementation AliRecognitionPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   FlutterMethodChannel* channel = [FlutterMethodChannel
-      methodChannelWithName:@"ali_recognition_simple"
+      methodChannelWithName:@"ali_recognition"
             binaryMessenger:[registrar messenger]];
-  AliRecognitionSimplePlugin* instance = [[AliRecognitionSimplePlugin alloc] init];
+  AliRecognitionPlugin* instance = [[AliRecognitionPlugin alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];
 }
 

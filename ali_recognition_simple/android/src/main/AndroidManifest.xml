@@ -1,3 +1,3 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.cabe.flutter.plugin.ali_recognition_simple">
+  package="com.cabe.flutter.plugin.ali_recognition">
 </manifest>

@@ -1,13 +1,13 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
-# Run `pod lib lint ali_recognition_simple.podspec' to validate before publishing.
+# Run `pod lib lint ali_recognition.podspec' to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'ali_recognition_simple'
+  s.name             = 'ali_recognition'
   s.version          = '0.0.1'
-  s.summary          = '阿里云人脸识别SDK'
+  s.summary          = '阿里云人脸识别SDK， Flutter Plugin'
   s.description      = <<-DESC
-阿里云人脸识别SDK
+阿里云人脸识别SDK， Flutter Plugin
                        DESC
   s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }

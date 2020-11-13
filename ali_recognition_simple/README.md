@@ -1,6 +1,6 @@
-# ali_recognition_simple
+# ali_recognition
 
-阿里云人脸识别SDK
+阿里云人脸识别SDK， Flutter Plugin
 
 ## Getting Started
 

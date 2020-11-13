@@ -6,104 +6,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2d58434-3333-4d62-9054-915986ab9bd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ali_recognition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ali_recognition.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/.idea/runConfigurations/example_lib_main_dart.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/ali_recognition_simple.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/android/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/android/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/android/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/android/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/android/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/android/src/main/java/com/cabe/flutter/plugin/ali_recognition_simple/AliRecognitionSimplePlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/.metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/main/java/com/cabe/flutter/plugin/ali_recognition_simple_example/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Flutter/Debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Flutter/Release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Podfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/AppDelegate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/AppDelegate.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/ios/Runner/main.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/lib/main.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/pubspec.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/test/widget_test.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/ios/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/ios/Assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/ios/Classes/AliRecognitionSimplePlugin.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/ios/Classes/AliRecognitionSimplePlugin.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/ios/ali_recognition_simple.podspec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/lib/ali_recognition_simple.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/pubspec.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/pubspec.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/test/ali_recognition_simple_test.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example/android/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../ali_recognition_simple/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ali_recognition_simple/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ali_recognition_simple/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ali_recognition_simple/android/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/android/src/main/java/com/cabe/flutter/plugin/ali_recognition_simple/AliRecognitionSimplePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ali_recognition_simple/android/src/main/java/com/cabe/flutter/plugin/ali_recognition_simple/AliRecognitionSimplePlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../ali_recognition_simple/example/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/main/java/com/cabe/flutter/plugin/ali_recognition_simple_example/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/main/java/com/cabe/flutter/plugin/ali_recognition_simple_example/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ali_recognition_simple/example/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ali_recognition_simple/example/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../ali_recognition_simple/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/lib/ali_recognition_simple.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../ali_recognition_simple/lib/ali_recognition.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../ali_recognition_simple/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ali_recognition_simple/test/ali_recognition_simple_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../ali_recognition_simple/test/ali_recognition_simple_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,4 +1,4 @@
-package com.cabe.flutter.plugin.ali_recognition_simple_example;
+package com.cabe.flutter.plugin.ali_recognition_example;
 
 import io.flutter.embedding.android.FlutterActivity;
 

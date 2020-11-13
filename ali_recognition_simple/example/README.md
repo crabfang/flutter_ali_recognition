@@ -1,6 +1,6 @@
-# ali_recognition_simple_example
+# ali_recognition_example
 
-Demonstrates how to use the ali_recognition_simple plugin.
+Demonstrates how to use the ali_recognition plugin.
 
 ## Getting Started
 

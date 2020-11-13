@@ -1,8 +1,6 @@
-import 'package:flutter/material.dart';
-import 'dart:async';
 
-import 'package:flutter/services.dart';
-import 'package:ali_recognition_simple/ali_recognition_simple.dart';
+import 'package:ali_recognition/ali_recognition.dart';
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,44 +12,51 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String _platformVersion = 'Unknown';
+  String _label = 'ali recognition demo';
+  int _counter = 0;
 
   @override
   void initState() {
     super.initState();
-    initPlatformState();
   }
 
-  // Platform messages are asynchronous, so we initialize in an async method.
-  Future<void> initPlatformState() async {
-    String platformVersion;
-    // Platform messages may fail, so we use a try/catch PlatformException.
-    try {
-      platformVersion = await AliRecognitionSimple.platformVersion;
-    } on PlatformException {
-      platformVersion = 'Failed to get platform version.';
+  void _incrementCounter() {
+    Future<String> result;
+    if(_counter == 0)
+      result = AliRecognition.sdkInit();
+    else if(_counter == 1)
+      result = AliRecognition.sdkMetaInfos();
+    else {
+      Map params = new Map();
+      params["certifyId"] = "91707dc296d469ad38e4c5efa6a0****";
+      params["useMsgBox"] = false;
+      result = AliRecognition.sdkVerify(params);
     }
-
-    // If the widget was removed from the tree while the asynchronous platform
-    // message was in flight, we want to discard the reply rather than calling
-    // setState to update our non-existent appearance.
-    if (!mounted) return;
-
-    setState(() {
-      _platformVersion = platformVersion;
+    result.then((result) {
+      print(result);
+      setState(() {
+        _label = result;
+      });
     });
+    _counter ++;
+    if(_counter > 2) _counter = 0;
   }
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Plugin example app'),
-        ),
-        body: Center(
-          child: Text('Running on: $_platformVersion\n'),
-        ),
+          appBar: AppBar(
+            title: const Text('Plugin example app'),
+          ),
+          body: Center(
+            child: Text(_label),
+          ),
+          floatingActionButton: FloatingActionButton(
+            onPressed: _incrementCounter,
+            tooltip: 'Increment',
+            child: Icon(Icons.add),
+          )
       ),
     );
   }

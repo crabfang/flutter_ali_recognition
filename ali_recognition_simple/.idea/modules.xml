@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ali_recognition_simple.iml" filepath="$PROJECT_DIR$/ali_recognition_simple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android/ali_recognition_simple_android.iml" filepath="$PROJECT_DIR$/android/ali_recognition_simple_android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/example/android/ali_recognition_simple_example_android.iml" filepath="$PROJECT_DIR$/example/android/ali_recognition_simple_example_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ali_recognition.iml" filepath="$PROJECT_DIR$/ali_recognition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/ali_recognition_android.iml" filepath="$PROJECT_DIR$/android/ali_recognition_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/ali_recognition_example_android.iml" filepath="$PROJECT_DIR$/example/android/ali_recognition_example_android.iml" />
     </modules>
   </component>
 </project>

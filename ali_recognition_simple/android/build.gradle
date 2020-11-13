@@ -1,4 +1,4 @@
-group 'com.cabe.flutter.plugin.ali_recognition_simple'
+group 'com.cabe.flutter.plugin.recognition'
 version '1.0'
 
 buildscript {
@@ -14,6 +14,7 @@ buildscript {
 
 rootProject.allprojects {
     repositories {
+        maven { url 'https://jitpack.io' }
         google()
         jcenter()
     }
@@ -25,9 +26,13 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 19
     }
     lintOptions {
         disable 'InvalidPackage'
     }
+}
+
+dependencies {
+    api 'com.github.crabfang:AliRecognition:1.0.4'
 }
