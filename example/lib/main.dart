@@ -32,8 +32,8 @@ class _MyAppState extends State<MyApp> {
       params["useMsgBox"] = false;
       result = AliRecognition.sdkVerify(params);
     }
-    result.then((result) => {
-      _label = result
+    result.then((result) {
+      _label = result;
     });
     _counter ++;
   }
