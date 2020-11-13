@@ -5,9 +5,9 @@
 Pod::Spec.new do |s|
   s.name             = 'ali_recognition_simple'
   s.version          = '0.0.1'
-  s.summary          = '阿里云人脸识别'
+  s.summary          = '阿里云人脸识别SDK'
   s.description      = <<-DESC
-阿里云人脸识别
+阿里云人脸识别SDK
                        DESC
   s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }

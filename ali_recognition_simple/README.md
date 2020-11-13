@@ -1,6 +1,6 @@
 # ali_recognition_simple
 
-阿里云人脸识别
+阿里云人脸识别SDK
 
 ## Getting Started
 
