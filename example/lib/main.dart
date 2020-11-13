@@ -33,9 +33,13 @@ class _MyAppState extends State<MyApp> {
       result = AliRecognition.sdkVerify(params);
     }
     result.then((result) {
-      _label = result;
+      print(result);
+      setState(() {
+        _label = result;
+      });
     });
     _counter ++;
+    if(_counter > 2) _counter = 0;
   }
 
   @override
