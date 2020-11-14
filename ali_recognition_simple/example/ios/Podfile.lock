@@ -1,0 +1,22 @@
+PODS:
+  - ali_recognition (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - ali_recognition (from `.symlinks/plugins/ali_recognition/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  ali_recognition:
+    :path: ".symlinks/plugins/ali_recognition/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  ali_recognition: 8d1033bb5e45b1fdadfaa58de4c27ec2a4dd8851
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+
+COCOAPODS: 1.8.4

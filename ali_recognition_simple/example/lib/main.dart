@@ -21,6 +21,7 @@ class _MyAppState extends State<MyApp> {
   }
 
   void _incrementCounter() {
+    print("_incrementCounter:$_counter");
     Future<String> result;
     if(_counter == 0)
       result = AliRecognition.sdkInit();
