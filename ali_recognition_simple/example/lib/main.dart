@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
 
   void _incrementCounter() {
     print("_incrementCounter:$_counter");
-    Future<String> result;
+    Future<Map> result;
     if(_counter == 0)
       result = AliRecognition.sdkInit();
     else if(_counter == 1)
@@ -36,7 +36,7 @@ class _MyAppState extends State<MyApp> {
     result.then((result) {
       print(result);
       setState(() {
-        _label = result;
+        _label = result.toString();
       });
     });
     _counter ++;

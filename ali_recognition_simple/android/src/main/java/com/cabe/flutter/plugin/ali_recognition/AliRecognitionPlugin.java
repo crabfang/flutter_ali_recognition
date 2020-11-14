@@ -40,7 +40,9 @@ public class AliRecognitionPlugin implements FlutterPlugin, MethodCallHandler, A
       case "init":
         try {
           init();
-          result.success("success");
+          Map<String, Object> data = new HashMap<>();
+          data.put("code", 0);
+          result.success(data);
         } catch (Exception e) {
           e.printStackTrace();
           result.error("1", e.getMessage(), e);
@@ -49,7 +51,10 @@ public class AliRecognitionPlugin implements FlutterPlugin, MethodCallHandler, A
       case "getMetaInfos":
         try {
           String metaInfoStr = getMetaInfos();
-          result.success(metaInfoStr);
+          Map<String, Object> data = new HashMap<>();
+          data.put("code", 0);
+          data.put("data", metaInfoStr);
+          result.success(data);
         } catch (Exception e) {
           e.printStackTrace();
           result.error("1", e.getMessage(), e);
@@ -58,10 +63,14 @@ public class AliRecognitionPlugin implements FlutterPlugin, MethodCallHandler, A
       case "verify":
         try {
           Map<String, Object> params = (Map<String, Object>) call.arguments;
+          final String certifyId = (String) params.get("certifyId");;
           verify(params, new ZIMCallback() {
             @Override
             public boolean response(ZIMResponse zimResponse) {
-              result.success(JSON.toJSONString(zimResponse));
+              String jsonStr = JSON.toJSONString(zimResponse);
+              Map data = JSON.parseObject(jsonStr, Map.class);
+              data.put("certifyId", certifyId);
+              result.success(data);
               return true;
             }
           });
