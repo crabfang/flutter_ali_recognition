@@ -51,9 +51,10 @@ public class AliRecognitionPlugin implements FlutterPlugin, MethodCallHandler, A
       case "getMetaInfos":
         try {
           String metaInfoStr = getMetaInfos();
+          Map metaData = (Map) JSON.parse(metaInfoStr);
           Map<String, Object> data = new HashMap<>();
           data.put("code", 0);
-          data.put("data", metaInfoStr);
+          data.put("data", metaData);
           result.success(data);
         } catch (Exception e) {
           e.printStackTrace();
@@ -63,7 +64,7 @@ public class AliRecognitionPlugin implements FlutterPlugin, MethodCallHandler, A
       case "verify":
         try {
           Map<String, Object> params = (Map<String, Object>) call.arguments;
-          final String certifyId = (String) params.get("certifyId");;
+          final String certifyId = (String) params.get("certifyId");
           verify(params, new ZIMCallback() {
             @Override
             public boolean response(ZIMResponse zimResponse) {

@@ -1,4 +1,6 @@
 
+import 'dart:convert';
+
 import 'package:ali_recognition/ali_recognition.dart';
 import 'package:flutter/material.dart';
 
@@ -29,7 +31,7 @@ class _MyAppState extends State<MyApp> {
       result = AliRecognition.sdkMetaInfos();
     else {
       Map params = new Map();
-      params["certifyId"] = "91707dc296d469ad38e4c5efa6a0****";
+      params["certifyId"] = "6f89d803bf7d1d575c217436a0020081";
       params["useMsgBox"] = false;
       result = AliRecognition.sdkVerify(params);
     }
